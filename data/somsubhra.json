@@ -6,7 +6,7 @@
   "projects": [
     {
       "name": "Read For Blind",
-      "description": "Windows Phone application to help the visually-impaired to read. Appeared in Imagine Cup 2013.",
+      "description": "Windows Phone application to help the visually-impaired to read. Appeared in Microsoft Imagine Cup 2013.",
       "link": "https://github.com/Somsubhra/ReadForBlind.git"
     },
     {
@@ -27,7 +27,7 @@
     {
       "name": "Pushy",
       "description": "A toy push server in python.",
-      "links": "https://github.com/Somsubhra/Pushy.git"
+      "link": "https://github.com/Somsubhra/Pushy.git"
     },
     {
       "name": "Lils",
@@ -52,7 +52,7 @@
     {
       "name": "Flat UI Color Selector",
       "description": "Google Chrome extension for flat UI colors selector.",
-      "link": "https://github.com/Somsubhra/FlatUIColorSelector"
+      "link": "https://github.com/Somsubhra/FlatUIColorSelector.git"
     },
     {
       "name": "UDCL",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Ping Pong",
-      "descripiton": "A Ping Pong game in HTML5.",
+      "description": "A Ping Pong game in HTML5.",
       "link": "https://github.com/Somsubhra/PingPong.git"
     },
     {
@@ -111,7 +111,7 @@
     },
     {
       "name": "Virtual Doctor",
-      "description": "Simulation of a virtual doctor",
+      "description": "Simulation of a virtual doctor.",
       "link": "https://github.com/Somsubhra/VirtualDoctor.git"
     },
     {
