@@ -1,6 +1,6 @@
 {
   "name": "Somsubhra Bairi",
-  "description": "The personal website of Somsubhra Bairi. His projects, blog entires and links are listed here.",
+  "description": "The personal website of Somsubhra Bairi. His projects, blog entires and links are listed at somsubhra.com",
   "keywords": "Somsubhra, Somsubhra Bairi, Open Source, Software Developer, Data Science, Machine Learning, Text Processing, Natural Language Processing, Google Summer of Code, DA-IICT",
   "url": "http://somsubhra.com",
   "projects": [
@@ -41,7 +41,7 @@
     },
     {
       "name": "Whistle",
-      "descripiton": "Voice controlled music player.",
+      "description": "Voice controlled music player.",
       "link": "https://github.com/Somsubhra/Whistle.git"
     },
     {

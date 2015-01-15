@@ -1,37 +1,72 @@
 <html>
   <head>
-    <title>
-    </title>
+    <title>Somsubhra Bairi</title>
+    <meta name="description" content="The personal website of Somsubhra Bairi. His projects, blog entires and links are listed at somsubhra.com" />
+    <meta name="keywords" content="Somsubhra, Somsubhra Bairi, Open Source, Software Developer, Data Science, Machine Learning, Text Processing, Natural Language Processing, Google Summer of Code, DA-IICT" />
     <style>
       * {
         font-weight: 300;
         font-family: Verdana, Geneva, sans-serif;
       }
       .hr {
-        border-bottom: 1px solid #cccccc;
+        border-bottom: 1px solid #bdc3c7;
       }
       .i {
         font-style: italic;
       }
+      a {
+        text-decoration: none;
+        color: #3498db;
+      }
+      .lt {
+        color: #7f8c8d;
+        font-size: 12px;
+      }
+      li {
+        margin-bottom: 20px;
+        list-style-type: none;
+      }
+      h2 {
+        color: #34495e;
+      }
     </style>
   </head>
   <body>
-    <header>
-      <h1>Somsubhra Bairi</h1>
+    <header class='hr'>
+      <h1 id="title"><a a href='http://somsubhra.com'>Somsubhra Bairi</a></h1>
     </header>
     <h2>Projects</h2>
-    <div id="projects" class="hr"></div>
+    <div class="hr"><ul id="projects"></ul></div>
     <h2>Blog Entries</h2>
-    <div id="blog" class="hr"></div>
+    <div class="hr"><ul id="blog"></ul></div>
     <h2>Links</h2>
-    <div id="links" class="hr"></div>
+    <div class="hr"><ul id="links"></ul></div>
     <footer>
       <div class="i" id="copyright"></div>
     </footer>
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-
+        $.ajax("data/somsubhra.json").done(function(data) {
+          var projects = data.projects;
+          var l = projects.length;
+          for(var i = 0; i < l; i++) {
+            var project = projects[i];
+            $("#projects").append("<li><div><a href='" + project.link + "'>" + project.name + "</a></div><div class='i lt'>" + project.description + "</div></li>");
+          }
+          var blogs = data.blogs;
+          var l = blogs.length;
+          for(var i = 0; i < l; i++) {
+            var entry = blogs[i];
+            $("#blog").append("<li><a href='" + entry.link + "'>" + entry.title + "</a></li>");
+          }
+          var links = data.links;
+          var l = links.length;
+          for(var i = 0; i < l; i++) {
+            var entry = links[i];
+            $("#links").append("<li><a href='" + entry.link + "'>" + entry.title + "</a></li>")
+          }
+        });
       });
     </script>
   </body>
