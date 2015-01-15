@@ -1,0 +1,54 @@
+{
+  "name": "Somsubhra Bairi",
+  "description": "",
+  "keywords": "",
+  "url": "http://somsubhra.com",
+  "projects": [
+    {
+      "name": "Read For Blind",
+      "description": "Windows Phone application to help the visually-impaired to read",
+      "link": "https://github.com/Somsubhra/ReadForBlind.git"
+    },
+    {
+      "name": "Lils",
+      "description": "Desktop runtime environment for packaged HTML5 apps",
+      "link": "https://github.com/Somsubhra/Lils.git"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "",
+      "link": ""
+    },
+  ],
+  "links": [
+    {
+      "title": "CV",
+      "link": "static/cv.pdf"
+    },
+    {
+      "title": "Blog",
+      "link": "http://blog.somsubhra.com"
+    },
+    {
+      "title": "Somsubhra on Github",
+      "link": "https://github.com/Somsubhra"
+    },
+    {
+      "title": "Somsubhra-Bairi on Quora",
+      "link": "https://quora.com/Somsubhra-Bairi"
+    },
+    {
+      "title": "@SomsubhraBairi on Twitter",
+      "link": "https://twitter.com/SomsubhraBairi"
+    },
+    {
+      "title": "somsubhra.bairi on Facebook",
+      "link": "https://facebook.com/somsubhra.bairi"
+    },
+    {
+      "title": "Somsubhra on about.me",
+      "link": "https://about.me/Somsubhra"
+    }
+  ]
+}
