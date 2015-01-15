@@ -5,147 +5,147 @@
   "url": "http://somsubhra.com",
   "projects": [
     {
-      "name": "Read For Blind",
+      "title": "Read For Blind",
       "description": "Windows Phone application to help the visually-impaired to read. Appeared in Microsoft Imagine Cup 2013.",
       "link": "https://github.com/Somsubhra/ReadForBlind.git"
     },
     {
-      "name": "Readability Score",
+      "title": "Readability Score",
       "description": "Generate a readability index for Gujarati language.",
       "link": "https://github.com/Somsubhra/ReadabilityScore.git"
     },
     {
-      "name": "Syllable Counter",
+      "title": "Syllable Counter",
       "description": "A syllable counter for Indian languages.",
       "link": "https://github.com/Somsubhra/SyllableCounter.git"
     },
     {
-      "name": "Studyclan (Non functional)",
+      "title": "Studyclan (Non functional)",
       "description": "A question and answers platform with online courses. Appeared in Google Cloud Developer Challenge 2013-14.",
       "link": ""
     },
     {
-      "name": "Pushy",
+      "title": "Pushy",
       "description": "A toy push server in python.",
       "link": "https://github.com/Somsubhra/Pushy.git"
     },
     {
-      "name": "Lils",
+      "title": "Lils",
       "description": "Desktop runtime environment for packaged HTML5 apps.",
       "link": "https://github.com/Somsubhra/Lils.git"
     },
     {
-      "name": "Cosmos",
+      "title": "Cosmos",
       "description": "Light-weight cross platform web browser.",
       "link": "https://github.com/Somsubhra/Cosmos.git"
     },
     {
-      "name": "Whistle",
+      "title": "Whistle",
       "description": "Voice controlled music player.",
       "link": "https://github.com/Somsubhra/Whistle.git"
     },
     {
-      "name": "Github Release Stats",
+      "title": "Github Release Stats",
       "description": "Get the latest release stats of your Github project.",
       "link": "https://somsubhra.github.io/github-release-stats/"
     },
     {
-      "name": "Flat UI Color Selector",
+      "title": "Flat UI Color Selector",
       "description": "Google Chrome extension for flat UI colors selector.",
       "link": "https://github.com/Somsubhra/FlatUIColorSelector.git"
     },
     {
-      "name": "UDCL",
+      "title": "UDCL",
       "description": "Urban Dictionary command line utility.",
       "link": "https://github.com/Somsubhra/UDCL.git"
     },
     {
-      "name": "Preview Links",
+      "title": "Preview Links",
       "description": "A service to get preview of links.",
       "link": "https://github.com/Somsubhra/PreviewLinks.git"
     },
     {
-      "name": "ReadPics",
+      "title": "ReadPics",
       "description": "Windows Phone OCR Application to turn camera views to notes and contacts.",
       "link": "https://github.com/Somsubhra/ReadPics.git"
     },
     {
-      "name": "FlySim",
+      "title": "FlySim",
       "description": "A flight simulator using an Arduino, accelerometer and Panda3D.",
       "link": "https://github.com/Somsubhra/FlySim.git"
     },
     {
-      "name": "AIBirds",
+      "title": "AIBirds",
       "description": "Artificially Intelligent Angry Birds game player agent.",
       "link": "https://github.com/Somsubhra/AIBirds.git"
     },
     {
-      "name": "Sonic",
+      "title": "Sonic",
       "description": "A racing game in Panda3D.",
       "link": "https://github.com/Somsubhra/Sonic.git"
     },
     {
-      "name": "Ping Pong",
+      "title": "Ping Pong",
       "description": "A Ping Pong game in HTML5.",
       "link": "https://github.com/Somsubhra/PingPong.git"
     },
     {
-      "name": "QHtmlEditor",
+      "title": "QHtmlEditor",
       "description": "Web editor with integrated web browser.",
       "link": "https://github.com/Somsubhra/QHtmlEditor.git"
     },
     {
-      "name": "MyMalloc",
+      "title": "MyMalloc",
       "description": "Malloc implementation.",
       "link": "https://github.com/Somsubhra/MyMalloc.git"
     },
     {
-      "name": "tsh",
+      "title": "tsh",
       "description": "Shell implementation.",
       "link": "https://github.com/Somsubhra/tsh.git"
     },
     {
-      "name": "Mail Sender",
+      "title": "Mail Sender",
       "description": "Desktop client for sending mail in Java.",
       "link": "https://github.com/Somsubhra/MailSender.git"
     },
     {
-      "name": "Virtual Doctor",
+      "title": "Virtual Doctor",
       "description": "Simulation of a virtual doctor.",
       "link": "https://github.com/Somsubhra/VirtualDoctor.git"
     },
     {
-      "name": "Enrich (WIP)",
+      "title": "Enrich (WIP)",
       "description": "Improving text readability by automatic text enrichment.",
       "link": ""
     },
     {
-      "name": "Predicting Parkinsons Disease stages using Smartphone data (WIP)",
+      "title": "Predicting Parkinsons Disease stages using Smartphone data (WIP)",
       "description": "Predict the stage of Parkinsons disease using smartphone sensor data.",
       "link": ""
     },
     {
-      "name": "Pollnation.in (WIP)",
+      "title": "Pollnation.in (WIP)",
       "description": "An online polling and debating platform.",
       "link": ""
     },
     {
-      "name": "Arcadia (WIP)",
+      "title": "Arcadia (WIP)",
       "description": "Virtual containers for running cloud applications.",
       "link": "https://github.com/Somsubhra/Arcadia.git"
     },
     {
-      "name": "Pushy.go (WIP)",
+      "title": "Pushy.go (WIP)",
       "description": "Pushy push server in Go.",
       "link": "https://github.com/Somsubhra/pushy.go.git"
     },
     {
-      "name": "Animtr (WIP)",
+      "title": "Animtr (WIP)",
       "description": "An animation making software.",
       "link": "https://github.com/Somsubhra/Animtr.git"
     },
     {
-      "name": "Gramophone (WIP)",
+      "title": "Gramophone (WIP)",
       "description": "An open source music player.",
       "link": "https://github.com/Somsubhra/Gramophone.git"
     }

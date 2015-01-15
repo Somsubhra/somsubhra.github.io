@@ -41,7 +41,7 @@
     <h2>Projects</h2>
     <div class="hr"><ul id="projects"></ul></div>
     <h2>Blog Entries</h2>
-    <div class="hr"><ul id="blog"></ul></div>
+    <div class="hr"><ul id="blogs"></ul></div>
     <h2>Links</h2>
     <div class="hr"><ul id="links"></ul></div>
     <footer>
@@ -62,32 +62,24 @@
         xhr.open("GET", path, true);
         xhr.send();
       }
+      function render(data, type) {
+        var l = data.length;
+        for(var i = 0; i < l; i++) {
+          var item = data[i];
+          var li = document.createElement("li");
+          if(type == "projects") {
+            li.innerHTML = "<div><a href='" + item.link + "' target='_blank'>" + item.title + "</a></div><div class='i lt'>" + item.description + "</div>";
+          } else {
+            li.innerHTML = "<a href='" + item.link + "' target='_blank'>" + item.title + "</a>";
+          }
+          document.getElementById(type).appendChild(li);
+        }
+      }
       document.addEventListener("DOMContentLoaded", function(event) {
         loadJSON("data/somsubhra.json", function(data) {
-          var projects = data.projects;
-          var l = projects.length;
-          for(var i = 0; i < l; i++) {
-            var project = projects[i];
-            var li = document.createElement("li");
-            li.innerHTML = "<div><a href='" + project.link + "'>" + project.name + "</a></div><div class='i lt'>" + project.description + "</div>";
-            document.getElementById("projects").appendChild(li);
-          }
-          var blogs = data.blogs;
-          var l = blogs.length;
-          for(var i = 0; i < l; i++) {
-            var entry = blogs[i];
-            var li = document.createElement("li");
-            li.innerHTML = "<a href='" + entry.link + "'>" + entry.title + "</a>";
-            document.getElementById("blog").appendChild(li);
-          }
-          var links = data.links;
-          var l = links.length;
-          for(var i = 0; i < l; i++) {
-            var entry = links[i];
-            var li = document.createElement("li");
-            li.innerHTML = "<a href='" + entry.link + "'>" + entry.title + "</a>";
-            document.getElementById("links").appendChild(li);
-          }
+          render(data.projects, "projects");
+          render(data.blogs, "blogs");
+          render(data.links, "links")
         });
       });
     </script>
