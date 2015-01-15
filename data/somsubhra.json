@@ -6,13 +6,18 @@
   "projects": [
     {
       "name": "Read For Blind",
-      "description": "Windows Phone application to help the visually-impaired to read",
+      "description": "Windows Phone application to help the visually-impaired to read. Appeared in Imagine Cup 2013.",
       "link": "https://github.com/Somsubhra/ReadForBlind.git"
     },
     {
       "name": "Lils",
-      "description": "Desktop runtime environment for packaged HTML5 apps",
+      "description": "Desktop runtime environment for packaged HTML5 apps.",
       "link": "https://github.com/Somsubhra/Lils.git"
+    },
+    {
+      "name": "Enrich (WIP)",
+      "description": "Improving text readability by automatic text enrichment.",
+      "link": ""
     }
   ],
   "blogs": [
