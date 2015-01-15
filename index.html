@@ -47,27 +47,46 @@
     <footer>
       <div class="lt" id="copyright">Copyrights(c) 2015 <a href='http://somsubhra.com'>Somsubhra</a></div>
     </footer>
-    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript">
-      $(document).ready(function() {
-        $.ajax("data/somsubhra.json").done(function(data) {
+      function loadJSON(path, cb) {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+          if(xhr.readyState === XMLHttpRequest.DONE) {
+            if(xhr.status === 200) {
+              if(cb) {
+                cb(JSON.parse(xhr.responseText));
+              }
+            }
+          }
+        };
+        xhr.open("GET", path, true);
+        xhr.send();
+      }
+      document.addEventListener("DOMContentLoaded", function(event) {
+        loadJSON("data/somsubhra.json", function(data) {
           var projects = data.projects;
           var l = projects.length;
           for(var i = 0; i < l; i++) {
             var project = projects[i];
-            $("#projects").append("<li><div><a href='" + project.link + "'>" + project.name + "</a></div><div class='i lt'>" + project.description + "</div></li>");
+            var li = document.createElement("li");
+            li.innerHTML = "<div><a href='" + project.link + "'>" + project.name + "</a></div><div class='i lt'>" + project.description + "</div>";
+            document.getElementById("projects").appendChild(li);
           }
           var blogs = data.blogs;
           var l = blogs.length;
           for(var i = 0; i < l; i++) {
             var entry = blogs[i];
-            $("#blog").append("<li><a href='" + entry.link + "'>" + entry.title + "</a></li>");
+            var li = document.createElement("li");
+            li.innerHTML = "<a href='" + entry.link + "'>" + entry.title + "</a>";
+            document.getElementById("blog").appendChild(li);
           }
           var links = data.links;
           var l = links.length;
           for(var i = 0; i < l; i++) {
             var entry = links[i];
-            $("#links").append("<li><a href='" + entry.link + "'>" + entry.title + "</a></li>")
+            var li = document.createElement("li");
+            li.innerHTML = "<a href='" + entry.link + "'>" + entry.title + "</a>";
+            document.getElementById("links").appendChild(li);
           }
         });
       });
