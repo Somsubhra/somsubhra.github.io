@@ -1,7 +1,7 @@
 {
   "name": "Somsubhra Bairi",
-  "description": "",
-  "keywords": "",
+  "description": "The personal website of Somsubhra Bairi. His projects, blog entires and links are listed here.",
+  "keywords": "Somsubhra, Somsubhra Bairi, Open Source, Software Developer, Data Science, Machine Learning, Text Processing, Natural Language Processing, Google Summer of Code, DA-IICT",
   "url": "http://somsubhra.com",
   "projects": [
     {
@@ -10,21 +10,167 @@
       "link": "https://github.com/Somsubhra/ReadForBlind.git"
     },
     {
+      "name": "Readability Score",
+      "description": "Generate a readability index for Gujarati language.",
+      "link": "https://github.com/Somsubhra/ReadabilityScore.git"
+    },
+    {
+      "name": "Syllable Counter",
+      "description": "A syllable counter for Indian languages.",
+      "link": "https://github.com/Somsubhra/SyllableCounter.git"
+    },
+    {
+      "name": "Studyclan (Non functional)",
+      "description": "A question and answers platform with online courses. Appeared in Google Cloud Developer Challenge 2013-14.",
+      "link": ""
+    },
+    {
+      "name": "Pushy",
+      "description": "A toy push server in python.",
+      "links": "https://github.com/Somsubhra/Pushy.git"
+    },
+    {
       "name": "Lils",
       "description": "Desktop runtime environment for packaged HTML5 apps.",
       "link": "https://github.com/Somsubhra/Lils.git"
     },
     {
+      "name": "Cosmos",
+      "description": "Light-weight cross platform web browser.",
+      "link": "https://github.com/Somsubhra/Cosmos.git"
+    },
+    {
+      "name": "Whistle",
+      "descripiton": "Voice controlled music player.",
+      "link": "https://github.com/Somsubhra/Whistle.git"
+    },
+    {
+      "name": "Github Release Stats",
+      "description": "Get the latest release stats of your Github project.",
+      "link": "https://somsubhra.github.io/github-release-stats/"
+    },
+    {
+      "name": "Flat UI Color Selector",
+      "description": "Google Chrome extension for flat UI colors selector.",
+      "link": "https://github.com/Somsubhra/FlatUIColorSelector"
+    },
+    {
+      "name": "UDCL",
+      "description": "Urban Dictionary command line utility.",
+      "link": "https://github.com/Somsubhra/UDCL.git"
+    },
+    {
+      "name": "Preview Links",
+      "description": "A service to get preview of links.",
+      "link": "https://github.com/Somsubhra/PreviewLinks.git"
+    },
+    {
+      "name": "ReadPics",
+      "description": "Windows Phone OCR Application to turn camera views to notes and contacts.",
+      "link": "https://github.com/Somsubhra/ReadPics.git"
+    },
+    {
+      "name": "FlySim",
+      "description": "A flight simulator using an Arduino, accelerometer and Panda3D.",
+      "link": "https://github.com/Somsubhra/FlySim.git"
+    },
+    {
+      "name": "AIBirds",
+      "description": "Artificially Intelligent Angry Birds game player agent.",
+      "link": "https://github.com/Somsubhra/AIBirds.git"
+    },
+    {
+      "name": "Sonic",
+      "description": "A racing game in Panda3D.",
+      "link": "https://github.com/Somsubhra/Sonic.git"
+    },
+    {
+      "name": "Ping Pong",
+      "descripiton": "A Ping Pong game in HTML5.",
+      "link": "https://github.com/Somsubhra/PingPong.git"
+    },
+    {
+      "name": "QHtmlEditor",
+      "description": "Web editor with integrated web browser.",
+      "link": "https://github.com/Somsubhra/QHtmlEditor.git"
+    },
+    {
+      "name": "MyMalloc",
+      "description": "Malloc implementation.",
+      "link": "https://github.com/Somsubhra/MyMalloc.git"
+    },
+    {
+      "name": "tsh",
+      "description": "Shell implementation.",
+      "link": "https://github.com/Somsubhra/tsh.git"
+    },
+    {
+      "name": "Mail Sender",
+      "description": "Desktop client for sending mail in Java.",
+      "link": "https://github.com/Somsubhra/MailSender.git"
+    },
+    {
+      "name": "Virtual Doctor",
+      "description": "Simulation of a virtual doctor",
+      "link": "https://github.com/Somsubhra/VirtualDoctor.git"
+    },
+    {
       "name": "Enrich (WIP)",
       "description": "Improving text readability by automatic text enrichment.",
       "link": ""
+    },
+    {
+      "name": "Predicting Parkinsons Disease stages using Smartphone data (WIP)",
+      "description": "Predict the stage of Parkinsons disease using smartphone sensor data.",
+      "link": ""
+    },
+    {
+      "name": "Pollnation.in (WIP)",
+      "description": "An online polling and debating platform.",
+      "link": ""
+    },
+    {
+      "name": "Arcadia (WIP)",
+      "description": "Virtual containers for running cloud applications.",
+      "link": "https://github.com/Somsubhra/Arcadia.git"
+    },
+    {
+      "name": "Pushy.go (WIP)",
+      "description": "Pushy push server in Go.",
+      "link": "https://github.com/Somsubhra/pushy.go.git"
+    },
+    {
+      "name": "Animtr (WIP)",
+      "description": "An animation making software.",
+      "link": "https://github.com/Somsubhra/Animtr.git"
+    },
+    {
+      "name": "Gramophone (WIP)",
+      "description": "An open source music player.",
+      "link": "https://github.com/Somsubhra/Gramophone.git"
     }
   ],
   "blogs": [
     {
-      "title": "",
-      "link": ""
+      "title": "The last 3 weeks in Krita Animation",
+      "link": "http://blog.somsubhra.com/post/88446855849"
     },
+    {
+      "title": "Application Hosting and Testing on RHC",
+      "link": "http://blog.somsubhra.com/post/88446852914"
+    },
+    {
+      "title": "First steps towards Animation in Krita",
+      "link": "http://blog.somsubhra.com/post/88446853274"
+    },
+    {
+      "title": "Imagine Cup, National Finals, 2013",
+      "link": "http://blog.somsubhra.com/post/88446853599"
+    },
+    {
+      "title": "KDE, FOSS and me!",
+      "link": "http://blog.somsubhra.com/post/88446855039"
+    }
   ],
   "links": [
     {
@@ -36,8 +182,16 @@
       "link": "http://blog.somsubhra.com"
     },
     {
+      "title": "Mail",
+      "link": "mailto:mail@somsubhra.com"
+    },
+    {
       "title": "Somsubhra on Github",
       "link": "https://github.com/Somsubhra"
+    },
+    {
+      "title": "Somsubhra Bairi on LinkedIn",
+      "link": "http://in.linkedin.com/pub/somsubhra-bairi/62/942/239"
     },
     {
       "title": "Somsubhra-Bairi on Quora",
@@ -52,8 +206,16 @@
       "link": "https://facebook.com/somsubhra.bairi"
     },
     {
+      "title": "Somsubhra Bairi on Google Plus",
+      "link": "https://plus.google.com/114051976074066159244"
+    },
+    {
       "title": "Somsubhra on about.me",
       "link": "https://about.me/Somsubhra"
+    },
+    {
+      "title": "Free Programming books",
+      "link": "https://somsubhra.github.io/free-programming-books/"
     }
   ]
 }
