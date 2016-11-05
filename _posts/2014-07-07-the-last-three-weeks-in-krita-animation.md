@@ -26,12 +26,12 @@ Hello planet! Over the past few weeks I have been working on Krita Animation to 
 **The Road Ahead**
 
 These are the things I have been intending to add or fix in the next few days:
-* The Onion skin Docker, which is a critical feature and is currently work in progress. There should be something substantial on this soon.
-* Add code to make the timeline GUI refresh/update on its own during import, frame and layer deletion, etc.
-* Frame and layer deletion, layer locking, moving frames and layers.
-* Animation export to PNG sequences.
-* Animation player and scrubbing, caching of probable frames(with some logic like locality of reference).
-* …And lots of bug fixes :)
+- The Onion skin Docker, which is a critical feature and is currently work in progress. There should be something substantial on this soon.
+- Add code to make the timeline GUI refresh/update on its own during import, frame and layer deletion, etc.
+- Frame and layer deletion, layer locking, moving frames and layers.
+- Animation export to PNG sequences.
+- Animation player and scrubbing, caching of probable frames(with some logic like locality of reference).
+- …And lots of bug fixes :)
 
 Also there have been some queries about how to test this stuff. So the only way to test it right now is by building from the source code after checking out the animation development branch, which is ‘animator-plugin-somsubhra’.
 That is all I have for now. Thanks for reading!
