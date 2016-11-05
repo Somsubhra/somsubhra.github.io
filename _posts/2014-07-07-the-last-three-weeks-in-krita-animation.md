@@ -26,6 +26,7 @@ Hello planet! Over the past few weeks I have been working on Krita Animation to 
 **The Road Ahead**
 
 These are the things I have been intending to add or fix in the next few days:
+
 - The Onion skin Docker, which is a critical feature and is currently work in progress. There should be something substantial on this soon.
 - Add code to make the timeline GUI refresh/update on its own during import, frame and layer deletion, etc.
 - Frame and layer deletion, layer locking, moving frames and layers.
