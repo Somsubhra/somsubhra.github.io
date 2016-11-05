@@ -15,4 +15,4 @@ The best thing about this is when you deploy, Juju will take care of all the con
 
 Once done with the modelling, you can deploy the models you generated for your applications and services to any of the public cloud platforms supported by Juju. 
 
-[Public clouds supported by Juju](http://img.ctrlv.in/img/16/11/05/581e2172904c6.png)
+![Public clouds supported by Juju](http://img.ctrlv.in/img/16/11/05/581e2172904c6.png)
