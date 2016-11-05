@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My blog gets a new home
+---
 
 My blogs have recently changed home - from [Blogger](https://blogger.com) to [Wordpress](https://wordpress.com) running on [OpenShift](https://openshift.com).
 
