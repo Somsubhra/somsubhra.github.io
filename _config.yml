@@ -1,0 +1,21 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Somsubhra
+tagline:             Bairi
+description:         The personal website of Somsubhra
+url:                 http://www.somsubhra.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Somsubhra Bairi
+  url:               http://www.somsubhra.com
+  email:             mail@somsubhra.com
+
+# Custom vars
+version:             1.0.0
