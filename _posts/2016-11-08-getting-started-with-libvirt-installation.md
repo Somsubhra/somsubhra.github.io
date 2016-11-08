@@ -24,7 +24,7 @@ libvirt, on the other hand is an abstraction layer on top of the various hypervi
 
 [Source: Wikipedia](https://en.wikipedia.org/wiki/Libvirt)
 
-libvirt has an API in [C](https://libvirt.org/html/index.html) for development. It also has bindings in other languages like [python](https://libvirt.org/python.html), [perl](http://search.cpan.org/dist/Sys-Virt/), [ocaml](http://libvirt.org/ocaml/), [ruby](http://libvirt.org/ruby/), [java](https://libvirt.org/java.html), [Go](https://github.com/rgbkrk/libvirt-go) and [PHP](https://libvirt.org/php.html), [C#](https://libvirt.org/csharp.html).
+libvirt has an API in [C](https://libvirt.org/html/index.html) for development. It also has bindings in other languages like [python](https://libvirt.org/python.html), [perl](http://search.cpan.org/dist/Sys-Virt/), [ocaml](http://libvirt.org/ocaml/), [ruby](http://libvirt.org/ruby/), [java](https://libvirt.org/java.html), [Go](https://github.com/rgbkrk/libvirt-go), [PHP](https://libvirt.org/php.html) and [C#](https://libvirt.org/csharp.html).
 
 Let's start with installing libvirt first. Since the workstations I use are ArchLinux and OSX, I will stick to these two platforms only (the installation instructions for other platforms are easily available).
 
