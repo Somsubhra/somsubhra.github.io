@@ -84,6 +84,6 @@ Using API: QEMU 2.3.0
 Running hypervisor: QEMU 2.7.0
 ```
 
-You can use the help command to get a list of all available commands.
+You can use the `help` command to get a list of all available commands.
 
 In the next post in the libvirt series, I'll start off with programmatically consuming the libvirt APIs.
