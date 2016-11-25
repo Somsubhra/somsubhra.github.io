@@ -9,10 +9,10 @@ Quoting for their website, "Juju is an application and service modelling tool th
 
 You can explore the modelling tool yourself [here](https://demo.jujucharms.com/). As an example, I have a WordPress model setup with the Wordpress nodes scaled to 3, one apache node acting as a reverse proxy to the wordpress nodes, a mysql master database connected to the wordpress nodes and a slave mysql instance.
 
-![Wordpress model](http://img.ctrlv.in/img/16/11/05/581e1fda9783d.png)
+![Wordpress model](http://i.imgur.com/Wp7j3FM.png)
 
 The best thing about this is when you deploy, Juju will take care of all the configuration required at the various nodes. (In the above example, the reverse proxy will be configured to point to the wordpress nodes, the slave database will be configured to replicate from the master database, etc.)
 
 Once done with the modelling, you can deploy the models you generated for your applications and services to any of the public cloud platforms supported by Juju. 
 
-![Public clouds supported by Juju](http://img.ctrlv.in/img/16/11/05/581e2172904c6.png)
+![Public clouds supported by Juju](http://i.imgur.com/5adWXku.png)
