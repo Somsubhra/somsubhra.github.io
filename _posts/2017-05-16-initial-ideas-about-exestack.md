@@ -3,7 +3,7 @@ layout: post
 title: Initial ideas for exestack
 ---
 
-So I have just kicked off writing an open source event driven code executor platform called [ExeStack](https://github.com/exestack) on Github. The idea behind the platform is to execute a piece of code on the cloud triggered by an event happening anywhere in the physical or the virtual world. The idea is very much similar to my previous implementation of [LambdaCloud](http://terracloud.india.endurance.com/) (which is closed source), which executes functions defined in python, ruby or php in response to events like database or file system writes.
+So I have just kicked off writing an open source event driven code executor platform called [exestack](https://github.com/exestack) on Github. The idea behind the platform is to execute a piece of code on the cloud triggered by an event happening anywhere in the physical or the virtual world. The idea is very much similar to my previous implementation of [LambdaCloud](http://terracloud.india.endurance.com/) (which is closed source), which executes functions defined in python, ruby or php in response to events like database or file system writes.
 
 So you can say this is some form of a re-write of the LambdaCloud platform, but with the following differences:
 
