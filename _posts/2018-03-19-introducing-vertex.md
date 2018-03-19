@@ -13,6 +13,12 @@ The rest of the post will cover how to build, install and run vertex on a node. 
 
 #### Build Instructions
 
+- Clone the source code
+
+```
+$ git clone https://github.com/unifiedthings/vertex
+```
+
 - Get the go dependencies
 
 ```
