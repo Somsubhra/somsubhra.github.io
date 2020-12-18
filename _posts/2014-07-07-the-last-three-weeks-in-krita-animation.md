@@ -15,11 +15,11 @@ Hello planet! Over the past few weeks I have been working on Krita Animation to 
 
 **Frame Navigation actions**: Actions for jumping to next and previous keyframes, next and previous frames have also been added with Keyboard shortcuts. This is specifically very helpful for animators who use keyboard to switch frames without clicking the buttons or using the timeline.
 
-![Frame Navigation Actions](http://img.ctrlv.in/img/14/06/10/5397345a136f3.png)
+![Frame Navigation Actions](https://i.imgur.com/ERZnNTT.png)
 
 **Changing the timeline width**: Added an option to change the timeline width according to the number of frames required in a particular animation.
 
-![Changing the timeline width](http://img.ctrlv.in/img/14/06/10/5397348661d31.png)
+![Changing the timeline width](https://i.imgur.com/D8OUZCt.png)
 
 **Animation import**: Currently the animation frames and layers get imported in Krita Animation. But the timeline GUI doesn’t get updated accordingly.
 
